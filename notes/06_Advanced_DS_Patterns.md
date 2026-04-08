@@ -177,16 +177,22 @@ void backtrack(int row, boolean[] cols, boolean[] diag1, boolean[] diag2, int[][
 | Permutations | `0` | No | **Yes** | No |
 | Permutations II (dups) | `0` | No | **Yes** | **Yes** |
 
-**LeetCode Problems:**
-- Subsets — LC 78 / 90
-- Permutations — LC 46 / 47
-- Combination Sum — LC 39 / 40
-- Word Search — LC 79
-- N-Queens — LC 51
-- Palindrome Partitioning — LC 131
-- Letter Combinations of a Phone Number — LC 17
-- Generate Parentheses — LC 22
-- Sudoku Solver — LC 37
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 17  | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | Approach 1 |
+| LC 22  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                   | 🟡 Medium | Approach 7 |
+| LC 37  | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                                                 | 🔴 Hard   | Approach 7 |
+| LC 39  | [Combination Sum](https://leetcode.com/problems/combination-sum/)                                             | 🟡 Medium | Approach 3 |
+| LC 40  | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                                       | 🟡 Medium | Approach 2 |
+| LC 46  | [Permutations](https://leetcode.com/problems/permutations/)                                                   | 🟡 Medium | Approach 4 |
+| LC 47  | [Permutations II](https://leetcode.com/problems/permutations-ii/)                                             | 🟡 Medium | Approach 5 |
+| LC 51  | [N-Queens](https://leetcode.com/problems/n-queens/)                                                           | 🔴 Hard   | Approach 7 |
+| LC 78  | [Subsets](https://leetcode.com/problems/subsets/)                                                             | 🟡 Medium | Approach 1 |
+| LC 79  | [Word Search](https://leetcode.com/problems/word-search/)                                                     | 🟡 Medium | Approach 6 |
+| LC 90  | [Subsets II](https://leetcode.com/problems/subsets-ii/)                                                       | 🟡 Medium | Approach 2 |
+| LC 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)                             | 🟡 Medium | Approach 1 |
 
 ---
 
@@ -298,15 +304,20 @@ while (!maxHeap.isEmpty()) {
 return time;
 ```
 
-**LeetCode Problems:**
-- Kth Largest Element in an Array — LC 215
-- Top K Frequent Elements — LC 347
-- K Closest Points to Origin — LC 973
-- Merge K Sorted Lists — LC 23
-- Find Median from Data Stream — LC 295
-- Task Scheduler — LC 621
-- Design Twitter — LC 355
-- Smallest Range Covering Elements from K Lists — LC 632
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 23  | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                       | 🔴 Hard   | Approach 5 |
+| LC 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                 | 🟡 Medium | Approach 2 or 4 |
+| LC 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                       | 🔴 Hard   | Approach 6 |
+| LC 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                                 | 🟡 Medium | Approach 2 |
+| LC 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                   | 🟡 Medium | Approach 5 |
+| LC 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/)                                                   | 🟡 Medium | Approach 7 |
+| LC 632 | [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | 🔴 Hard | Approach 5 |
+| LC 767 | [Reorganize String](https://leetcode.com/problems/reorganize-string/)                                             | 🟡 Medium | Approach 7 |
+| LC 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)                           | 🟡 Medium | Approach 3 |
+| LC 1046| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)                                             | 🟢 Easy   | Approach 7 |
 
 ---
 
@@ -407,13 +418,16 @@ boolean searchWithWildcard(String word, TrieNode node) {
 }
 ```
 
-**LeetCode Problems:**
-- Implement Trie (Prefix Tree) — LC 208
-- Add and Search Word — LC 211
-- Word Search II — LC 212
-- Replace Words — LC 648
-- Design Search Autocomplete System — LC 642
-- Longest Word in Dictionary — LC 720
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)                         | 🟡 Medium | Approach 1 |
+| LC 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | Approach 3 |
+| LC 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/)                                                   | 🔴 Hard   | Approach 1 + grid DFS |
+| LC 648 | [Replace Words](https://leetcode.com/problems/replace-words/)                                                     | 🟡 Medium | Approach 1 |
+| LC 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-a-dictionary/)                         | 🟡 Medium | Approach 1 |
+| LC 642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/)             | 🔴 Hard   | Approach 2 |
 
 ---
 
@@ -484,11 +498,14 @@ for (int i = 1; i <= n; i++) {
 // Frequency table with prefix sums
 ```
 
-**LeetCode Problems:**
-- Range Sum Query - Mutable — LC 307
-- Count of Smaller Numbers After Self — LC 315
-- Reverse Pairs — LC 493
-- Count of Range Sum — LC 327
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 307 | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)           | 🟡 Medium | BIT point update + prefix |
+| LC 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | 🔴 Hard | BIT + coordinate compress |
+| LC 327 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)                       | 🔴 Hard   | BIT + prefix sums |
+| LC 493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)                                 | 🔴 Hard   | BIT + coordinate compress |
 
 ---
 
@@ -599,11 +616,14 @@ class LazySegTree {
 **Use BIT when:** only need prefix sums + point updates (simpler code).  
 **Use Segment Tree when:** need range min/max or range updates.
 
-**LeetCode Problems:**
-- Range Sum Query - Mutable — LC 307
-- The Skyline Problem — LC 218
-- Count of Smaller Numbers After Self — LC 315
-- My Calendar III — LC 732
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)                     | 🔴 Hard   | Segment Tree / sorted map |
+| LC 307 | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)           | 🟡 Medium | Point update + range query |
+| LC 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | 🔴 Hard | Coordinate compress |
+| LC 732 | [My Calendar III](https://leetcode.com/problems/my-calendar-iii/)                             | 🔴 Hard   | Lazy propagation range update |
 
 ---
 

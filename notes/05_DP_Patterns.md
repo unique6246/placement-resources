@@ -119,17 +119,21 @@ for (int i = 2; i < nums.length; i++) {
 return prev1;
 ```
 
-**LeetCode Problems:**
-- Climbing Stairs — LC 70
-- House Robber — LC 198 / 213
-- Coin Change — LC 322
-- Longest Increasing Subsequence — LC 300
-- Jump Game — LC 55
-- Jump Game II — LC 45
-- Word Break — LC 139
-- Decode Ways — LC 91
-- Partition Equal Subset Sum — LC 416
-- Maximum Product Subarray — LC 152
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 45  | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                 | 🟡 Medium | Approach 2 — greedy |
+| LC 55  | [Jump Game](https://leetcode.com/problems/jump-game/)                                       | 🟡 Medium | Approach 2 — greedy |
+| LC 70  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                           | 🟢 Easy   | Approach 3 — space optimized |
+| LC 91  | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                   | 🟡 Medium | Approach 2 — tabulation |
+| LC 139 | [Word Break](https://leetcode.com/problems/word-break/)                                     | 🟡 Medium | Approach 2 — tabulation |
+| LC 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)         | 🟡 Medium | Approach 2 — track min+max |
+| LC 198 | [House Robber](https://leetcode.com/problems/house-robber/)                                 | 🟡 Medium | Approach 3 — space optimized |
+| LC 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                           | 🟡 Medium | Approach 2 — run twice |
+| LC 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | 🟡 Medium | Approach 1 or 2 |
+| LC 322 | [Coin Change](https://leetcode.com/problems/coin-change/)                                   | 🟡 Medium | Approach 2 — tabulation |
+| LC 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)     | 🟡 Medium | Approach 2 — boolean dp |
 
 ---
 
@@ -164,10 +168,13 @@ for (int i = 1; i < nums.length; i++) {
 return result;
 ```
 
-**LeetCode Problems:**
-- Maximum Subarray — LC 53
-- Maximum Product Subarray — LC 152
-- Maximum Sum Circular Subarray — LC 918
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 53  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                               | 🟡 Medium | Kadane's |
+| LC 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)               | 🟡 Medium | Max product variant |
+| LC 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)     | 🟡 Medium | Kadane's + total − min |
 
 ---
 
@@ -219,12 +226,16 @@ for (int num : nums)
 return dp[target];
 ```
 
-**LeetCode Problems:**
-- Coin Change — LC 322 (unbounded)
-- Coin Change II — LC 518 (unbounded, count ways)
-- Partition Equal Subset Sum — LC 416 (0/1 knapsack)
-- Target Sum — LC 494
-- Last Stone Weight II — LC 1049
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 322  | [Coin Change](https://leetcode.com/problems/coin-change/)                                     | 🟡 Medium | Unbounded — min coins |
+| LC 416  | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)       | 🟡 Medium | 0/1 Knapsack boolean |
+| LC 474  | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)                             | 🟡 Medium | 0/1 Knapsack 2D capacity |
+| LC 494  | [Target Sum](https://leetcode.com/problems/target-sum/)                                       | 🟡 Medium | 0/1 Knapsack count ways |
+| LC 518  | [Coin Change II](https://leetcode.com/problems/coin-change-ii/)                               | 🟡 Medium | Unbounded — count ways |
+| LC 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)                   | 🟡 Medium | 0/1 Knapsack partition min diff |
 
 ---
 
@@ -260,11 +271,14 @@ for (int num : nums) {
 return len;
 ```
 
-**LeetCode Problems:**
-- Longest Increasing Subsequence — LC 300
-- Number of Longest Increasing Subsequence — LC 673
-- Russian Doll Envelopes — LC 354
-- Minimum Number of Arrows — LC 452
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                   | 🟡 Medium | Approach 1 or 2 |
+| LC 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)                                   | 🔴 Hard   | Approach 2 |
+| LC 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | 🟡 Medium | Greedy variant |
+| LC 673 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | 🟡 Medium | Approach 1 — count array |
 
 ---
 
@@ -347,14 +361,17 @@ return prev[n];
 | **Is Subsequence** | can a[0..i) match b[0..j)? | `diag` | `left` (skip b[j]) |
 | **Wildcard Matching** | does a[0..i) match pattern[0..j) | special for `*` | — |
 
-**LeetCode Problems:**
-- Longest Common Subsequence — LC 1143
-- Edit Distance — LC 72
-- Distinct Subsequences — LC 115
-- Shortest Common Supersequence — LC 1092
-- Interleaving String — LC 97
-- Wildcard Matching — LC 44
-- Regular Expression Matching — LC 10
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)       | 🔴 Hard   | 2D DP with . and * |
+| LC 44   | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)                           | 🔴 Hard   | 2D DP with * |
+| LC 72   | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                   | 🟡 Medium | Edit distance template |
+| LC 97   | [Interleaving String](https://leetcode.com/problems/interleaving-string/)                       | 🟡 Medium | 2D DP two sources |
+| LC 115  | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)                   | 🔴 Hard   | LCS variant — count |
+| LC 1092 | [Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)   | 🔴 Hard   | LCS + reconstruct |
+| LC 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)         | 🟡 Medium | LCS template |
 
 ---
 
@@ -416,13 +433,16 @@ for (int i = 1; i < m; i++)
 return dp[m-1][n-1];
 ```
 
-**LeetCode Problems:**
-- Unique Paths — LC 62
-- Unique Paths II — LC 63
-- Minimum Path Sum — LC 64
-- Triangle — LC 120
-- Maximal Square — LC 221
-- Dungeon Game — LC 174
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 62  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                       | 🟡 Medium | top+left sum |
+| LC 63  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)                 | 🟡 Medium | with obstacles |
+| LC 64  | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)               | 🟡 Medium | min cost grid |
+| LC 120 | [Triangle](https://leetcode.com/problems/triangle/)                               | 🟡 Medium | bottom-up |
+| LC 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/)                       | 🔴 Hard   | reverse DP |
+| LC 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/)                   | 🟡 Medium | min of 3 neighbors + 1 |
 
 ---
 
@@ -472,12 +492,15 @@ for (int i = 0; i < n; i++) {
 return dp[n-1];
 ```
 
-**LeetCode Problems:**
-- Longest Palindromic Subsequence — LC 516
-- Palindromic Substrings — LC 647
-- Palindrome Partitioning II — LC 132
-- Burst Balloons — LC 312
-- Strange Printer — LC 664
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)   | 🔴 Hard   | isPalin + min cuts |
+| LC 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/)                           | 🔴 Hard   | Interval DP last balloon |
+| LC 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | 🟡 Medium | Diagonal fill |
+| LC 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)           | 🟡 Medium | Expand around center |
+| LC 664 | [Strange Printer](https://leetcode.com/problems/strange-printer/)                         | 🔴 Hard   | Interval DP merge |
 
 ---
 

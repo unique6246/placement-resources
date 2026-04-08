@@ -143,14 +143,20 @@ while (!beginSet.isEmpty()) {
 return 0;
 ```
 
-**LeetCode Problems:**
-- Binary Tree Level Order Traversal — LC 102
-- Word Ladder — LC 127
-- 01 Matrix — LC 542
-- Rotting Oranges — LC 994
-- Shortest Path in Binary Matrix — LC 1091
-- Walls and Gates — LC 286
-- Snakes and Ladders — LC 909
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 102  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)   | 🟡 Medium | Approach 1 |
+| LC 111  | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)             | 🟢 Easy   | Approach 1 |
+| LC 127  | [Word Ladder](https://leetcode.com/problems/word-ladder/)                                                | 🔴 Hard   | Approach 4 |
+| LC 286  | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/)                                        | 🟡 Medium | Approach 3 |
+| LC 542  | [01 Matrix](https://leetcode.com/problems/01-matrix/)                                                    | 🟡 Medium | Approach 3 |
+| LC 752  | [Open the Lock](https://leetcode.com/problems/open-the-lock/)                                            | 🟡 Medium | Approach 4 |
+| LC 909  | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)                                  | 🟡 Medium | Approach 1 |
+| LC 994  | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                        | 🟡 Medium | Approach 3 |
+| LC 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)          | 🟡 Medium | Approach 2 |
+| LC 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                            | 🟡 Medium | Approach 1 |
 
 ---
 
@@ -262,16 +268,22 @@ void dfs(int node, List<Integer> path, List<List<Integer>> result) {
 }
 ```
 
-**LeetCode Problems:**
-- Number of Islands — LC 200
-- Max Area of Island — LC 695
-- Clone Graph — LC 133
-- Path Sum — LC 112
-- Binary Tree Maximum Path Sum — LC 124
-- Surrounded Regions — LC 130
-- Pacific Atlantic Water Flow — LC 417
-- Course Schedule — LC 207 (cycle detection)
-- Lowest Common Ancestor — LC 236
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 112  | [Path Sum](https://leetcode.com/problems/path-sum/)                                                                               | 🟢 Easy   | Approach 4 |
+| LC 124  | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                       | 🔴 Hard   | Approach 4 |
+| LC 130  | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                                                           | 🟡 Medium | Approach 3 |
+| LC 133  | [Clone Graph](https://leetcode.com/problems/clone-graph/)                                                                         | 🟡 Medium | Approach 1 |
+| LC 200  | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                             | 🟡 Medium | Approach 3 |
+| LC 207  | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                 | 🟡 Medium | Approach 5 |
+| LC 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                 | 🟡 Medium | Approach 4 |
+| LC 323  | [Number of Connected Components](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)           | 🟡 Medium | Approach 1 |
+| LC 417  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                         | 🟡 Medium | Approach 1 |
+| LC 543  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                                                 | 🟢 Easy   | Approach 4 |
+| LC 695  | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)                                                           | 🟡 Medium | Approach 3 |
+| LC 797  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)                                 | 🟡 Medium | Approach 6 |
 
 ---
 
@@ -381,14 +393,18 @@ for (Map.Entry<Integer, List<String>> e : groups.entrySet()) {
 return result;
 ```
 
-**LeetCode Problems:**
-- Number of Provinces — LC 547
-- Redundant Connection — LC 684
-- Graph Valid Tree — LC 261
-- Accounts Merge — LC 721
-- Number of Connected Components — LC 323
-- Smallest String With Swaps — LC 1202
-- Making a Large Island — LC 827
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 261  | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)                                                               | 🟡 Medium | Approach 4 |
+| LC 323  | [Number of Connected Components](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)           | 🟡 Medium | Approach 3 |
+| LC 547  | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)                                                         | 🟡 Medium | Approach 3 |
+| LC 684  | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)                                                       | 🟡 Medium | Approach 4 |
+| LC 721  | [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                                                                   | 🟡 Medium | Approach 5 |
+| LC 827  | [Making a Large Island](https://leetcode.com/problems/making-a-large-island/)                                                     | 🔴 Hard   | Approach 3 |
+| LC 947  | [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)         | 🟡 Medium | Approach 3 |
+| LC 1202 | [Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)                                          | 🟡 Medium | Approach 3 |
 
 ---
 
@@ -446,12 +462,16 @@ for (int i = 0; i < n; i++)
 | Just detect cycle | DFS 3-color |
 | Need reverse topological (sink → source) | DFS post-order |
 
-**LeetCode Problems:**
-- Course Schedule — LC 207
-- Course Schedule II — LC 210
-- Alien Dictionary — LC 269
-- Sequence Reconstruction — LC 444
-- Find All Possible Recipes from Given Supplies — LC 2115
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 207  | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                 | 🟡 Medium | Approach 1 |
+| LC 210  | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                           | 🟡 Medium | Approach 1 |
+| LC 269  | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                                                               | 🔴 Hard   | Approach 1 |
+| LC 444  | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/)                                                 | 🟡 Medium | Approach 1 |
+| LC 1136 | [Parallel Courses](https://leetcode.com/problems/parallel-courses/)                                                               | 🟡 Medium | Approach 1 |
+| LC 2115 | [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)     | 🟡 Medium | Approach 1 |
 
 ---
 
@@ -504,12 +524,16 @@ while (!pq.isEmpty()) {
 return -1;
 ```
 
-**LeetCode Problems:**
-- Network Delay Time — LC 743
-- Cheapest Flights Within K Stops — LC 787
-- Path With Minimum Effort — LC 1631
-- Swim in Rising Water — LC 778
-- Find the City With Smallest Number of Neighbors — LC 1334
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 743  | [Network Delay Time](https://leetcode.com/problems/network-delay-time/)                                                           | 🟡 Medium | Approach 1 |
+| LC 778  | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)                                                       | 🔴 Hard   | Approach 1 |
+| LC 787  | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)                                 | 🟡 Medium | Approach 2 |
+| LC 1334 | [Find the City With Smallest Number of Neighbors](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | 🟡 Medium | Approach 1 |
+| LC 1631 | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)                                               | 🟡 Medium | Approach 1 |
+| LC 1928 | [Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)             | 🔴 Hard   | Approach 2 |
 
 ---
 
@@ -541,9 +565,11 @@ for (int[] edge : edges) {
 return dist[target];
 ```
 
-**LeetCode Problems:**
-- Cheapest Flights Within K Stops (alt) — LC 787
-- Negative Weight Cycle — various
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 Medium | Bellman-Ford K+1 passes |
 
 ---
 
@@ -572,10 +598,12 @@ for (int k = 0; k < n; k++)
 // dist[i][i] < 0 → negative cycle
 ```
 
-**LeetCode Problems:**
-- Find the City With Smallest Number of Neighbors — LC 1334
-- Network Delay Time (all-pairs variant)
-- Transitive closure problems
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 743  | [Network Delay Time](https://leetcode.com/problems/network-delay-time/)                                                                                       | 🟡 Medium | Floyd-Warshall |
+| LC 1334 | [Find the City With Smallest Number of Neighbors](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | 🟡 Medium | Floyd-Warshall |
 
 ---
 

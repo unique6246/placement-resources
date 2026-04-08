@@ -90,11 +90,16 @@ for (int i = 0; i < nums.length; i++) {
 return result;
 ```
 
-**LeetCode Problems:**
-- Max Average Subarray I — LC 643
-- Contains Duplicate II — LC 219
-- Find All Anagrams in a String — LC 438
-- Sliding Window Maximum — LC 239
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 643  | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)                              | 🟢 Easy   | Approach 2 |
+| LC 219  | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)                                        | 🟢 Easy   | Approach 3 |
+| LC 438  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)                        | 🟡 Medium | Approach 3 |
+| LC 2461 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | 🟡 Medium | Approach 3 |
+| LC 1876 | [Substrings of Size Three with Distinct Chars](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/) | 🟢 Easy   | Approach 2 |
+| LC 239  | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                      | 🔴 Hard   | Approach 4 |
 
 ---
 
@@ -167,22 +172,26 @@ return minLen == Integer.MAX_VALUE ? "" : s.substring(start, start + minLen);
 
 ### Shrink Condition Reference
 
-| Problem | `while` shrink condition |
-|---|---|
-| At most K distinct elements | `window.size() > k` |
-| No duplicate characters | `window.get(c) > 1` |
-| Sum exceeds target | `sum > target` |
-| At most K zeros (flip) | `zeroCount > k` |
-| At most K replacements | `(right - left + 1) - maxFreq > k` |
+| Constraint                   | `while` shrink condition               |
+|------------------------------|----------------------------------------|
+| At most K distinct elements  | `window.size() > k`                   |
+| No duplicate characters      | `window.get(c) > 1`                   |
+| Sum exceeds target           | `sum > target`                        |
+| At most K zeros (flip)       | `zeroCount > k`                       |
+| At most K replacements       | `(right - left + 1) - maxFreq > k`   |
 
-**LeetCode Problems:**
-- Fruit Into Baskets — LC 904
-- Longest Substring Without Repeating Characters — LC 3
-- Longest Substring with At Most K Distinct Characters — LC 340
-- Minimum Window Substring — LC 76
-- Longest Repeating Character Replacement — LC 424
-- Max Consecutive Ones III — LC 1004
-- Permutation in String — LC 567
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)       | 🟡 Medium | Approach 2 |
+| LC 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                                   | 🔴 Hard   | Approach 3 |
+| LC 340  | [Longest Substring with At Most K Distinct Chars](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | 🟡 Medium | Approach 2 |
+| LC 424  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)                     | 🟡 Medium | Approach 2 |
+| LC 567  | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                                                         | 🟡 Medium | Approach 2 |
+| LC 904  | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)                                                               | 🟡 Medium | Approach 2 |
+| LC 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)                                                   | 🟡 Medium | Approach 2 |
+| LC 1493 | [Longest Subarray of 1s After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium | Approach 2 |
 
 ---
 
@@ -264,13 +273,18 @@ while (left < right) {
 return water;
 ```
 
-**LeetCode Problems:**
-- Two Sum II — LC 167
-- 3Sum — LC 15
-- Container With Most Water — LC 11
-- Valid Palindrome — LC 125
-- Trapping Rain Water — LC 42
-- Sort Colors (Dutch Flag) — LC 75
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)      | 🟡 Medium | Approach 2 |
+| LC 15  | [3Sum](https://leetcode.com/problems/3sum/)                                                 | 🟡 Medium | Approach 3 |
+| LC 16  | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                 | 🟡 Medium | Approach 3 |
+| LC 18  | [4Sum](https://leetcode.com/problems/4sum/)                                                 | 🟡 Medium | Approach 3 |
+| LC 42  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                   | 🔴 Hard   | Approach 5 |
+| LC 75  | [Sort Colors](https://leetcode.com/problems/sort-colors/)                                   | 🟡 Medium | Approach 2 |
+| LC 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                         | 🟢 Easy   | Approach 4 |
+| LC 167 | [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 Medium | Approach 2 |
 
 ---
 
@@ -342,13 +356,17 @@ slow.next = slow.next.next;   // skip the target node
 return dummy.next;
 ```
 
-**LeetCode Problems:**
-- Linked List Cycle — LC 141
-- Linked List Cycle II — LC 142
-- Find the Duplicate Number — LC 287
-- Middle of the Linked List — LC 876
-- Remove Nth Node From End of List — LC 19
-- Happy Number — LC 202
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Medium | Approach 5 |
+| LC 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                               | 🟢 Easy   | Approach 2 |
+| LC 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                         | 🟡 Medium | Approach 3 |
+| LC 202 | [Happy Number](https://leetcode.com/problems/happy-number/)                                         | 🟢 Easy   | Approach 2 |
+| LC 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                     | 🟢 Easy   | Approach 4 |
+| LC 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)               | 🟡 Medium | Approach 3 |
+| LC 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)               | 🟢 Easy   | Approach 4 |
 
 ---
 
@@ -427,13 +445,18 @@ int rectSum = prefix[r2+1][c2+1]
             + prefix[r1][c1];
 ```
 
-**LeetCode Problems:**
-- Subarray Sum Equals K — LC 560
-- Range Sum Query - Immutable — LC 303
-- Product of Array Except Self — LC 238
-- Continuous Subarray Sum — LC 523
-- Subarray Sums Divisible by K — LC 974
-- Count Number of Nice Subarrays — LC 1248
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)      | 🟡 Medium | Approach 2 |
+| LC 303  | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)           | 🟢 Easy   | Approach 2 |
+| LC 304  | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)    | 🟡 Medium | Approach 5 |
+| LC 437  | [Path Sum III](https://leetcode.com/problems/path-sum-iii/)                                      | 🟡 Medium | Approach 3 |
+| LC 523  | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)                | 🟡 Medium | Approach 4 |
+| LC 560  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                    | 🟡 Medium | Approach 3 |
+| LC 974  | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)     | 🟡 Medium | Approach 4 |
+| LC 1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | 🟡 Medium | Approach 3 |
 
 ---
 
@@ -516,14 +539,20 @@ for (int i = 0; i < nums.length; i++) {
 return maxLen;
 ```
 
-**LeetCode Problems:**
-- Two Sum — LC 1
-- Group Anagrams — LC 49
-- Valid Anagram — LC 242
-- Top K Frequent Elements — LC 347
-- First Unique Character in a String — LC 387
-- Majority Element — LC 169
-- Longest Consecutive Sequence — LC 128
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                   | 🟢 Easy   | Approach 1 |
+| LC 49  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                     | 🟡 Medium | Approach 3 |
+| LC 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)         | 🟡 Medium | Approach 4 |
+| LC 169 | [Majority Element](https://leetcode.com/problems/majority-element/)                                 | 🟢 Easy   | Approach 2 |
+| LC 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)                             | 🟢 Easy   | Approach 2 |
+| LC 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                             | 🟢 Easy   | Approach 2 |
+| LC 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                       | 🟢 Easy   | Approach 2 |
+| LC 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/)                                         | 🟢 Easy   | Approach 1 |
+| LC 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                   | 🟡 Medium | Approach 2 |
+| LC 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | 🟢 Easy | Approach 2 |
 
 ---
 
@@ -622,22 +651,29 @@ return -1;
 
 ### Which Binary Search Template to Use
 
-| Situation | Template | Loop condition |
-|---|---|---|
-| Find exact value | Classic | `left <= right` |
-| Find first true | Left boundary | `left < right` |
-| Find last true | Right boundary | `left < right` + mid bias +1 |
-| Minimize feasible answer | Binary Search on Answer | `left < right` |
+| Situation                   | Template              | Loop condition              |
+|-----------------------------|-----------------------|-----------------------------|
+| Find exact value            | Classic               | `left <= right`             |
+| Find first true position    | Left boundary         | `left < right`              |
+| Find last true position     | Right boundary        | `left < right` + bias +1   |
+| Minimize a feasible answer  | Binary Search on Answer | `left < right`            |
 
-**LeetCode Problems:**
-- Binary Search — LC 704
-- Search in Rotated Sorted Array — LC 33
-- Find Minimum in Rotated Sorted Array — LC 153
-- Find Peak Element — LC 162
-- Koko Eating Bananas — LC 875
-- Capacity To Ship Packages Within D Days — LC 1011
-- Median of Two Sorted Arrays — LC 4
-- First Bad Version — LC 278
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 4    | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                         | 🔴 Hard   | Approach 5 |
+| LC 33   | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                   | 🟡 Medium | Approach 6 |
+| LC 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                           | 🟡 Medium | Approach 2 |
+| LC 81   | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)             | 🟡 Medium | Approach 6 |
+| LC 153  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)       | 🟡 Medium | Approach 3 |
+| LC 162  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                             | 🟡 Medium | Approach 4 |
+| LC 278  | [First Bad Version](https://leetcode.com/problems/first-bad-version/)                                             | 🟢 Easy   | Approach 3 |
+| LC 410  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)                                 | 🔴 Hard   | Approach 5 |
+| LC 704  | [Binary Search](https://leetcode.com/problems/binary-search/)                                                     | 🟢 Easy   | Approach 2 |
+| LC 875  | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)                                         | 🟡 Medium | Approach 5 |
+| LC 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | 🟡 Medium | Approach 5 |
+| LC 1482 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | 🟡 Medium | Approach 5 |
 
 ---
 
@@ -748,21 +784,27 @@ return (int) ans;
 
 ### Quick Reference
 
-| Problem | Stack type | Pop when | Answer for popped |
-|---|---|---|---|
-| Next Greater Element | Decreasing | `nums[i] > top` | `nums[i]` |
-| Next Smaller Element | Increasing | `nums[i] < top` | `nums[i]` |
-| Daily Temperatures | Decreasing | `temp[i] > top` | `i - poppedIdx` |
-| Largest Rectangle | Increasing | `height[i] < top` | `height * width` |
+| Problem              | Stack type  | Pop when            | Answer for popped  |
+|----------------------|-------------|---------------------|--------------------|
+| Next Greater Element | Decreasing  | `nums[i] > top`     | `nums[i]`          |
+| Next Smaller Element | Increasing  | `nums[i] < top`     | `nums[i]`          |
+| Daily Temperatures   | Decreasing  | `temp[i] > top`     | `i - poppedIdx`    |
+| Largest Rectangle    | Increasing  | `height[i] < top`   | `height * width`   |
 
-**LeetCode Problems:**
-- Next Greater Element I — LC 496
-- Next Greater Element II (Circular) — LC 503
-- Daily Temperatures — LC 739
-- Largest Rectangle in Histogram — LC 84
-- Trapping Rain Water — LC 42
-- Remove K Digits — LC 402
-- Sum of Subarray Minimums — LC 907
+**🔗 LeetCode Problems:**
+
+| # | Problem | Difficulty | Use Approach |
+|---|---------|:----------:|:------------:|
+| LC 42  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                   | 🔴 Hard   | Approach 5 |
+| LC 84  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 Hard | Approach 5 |
+| LC 85  | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)                       | 🔴 Hard   | Approach 5 |
+| LC 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                           | 🟡 Medium | Approach 3 |
+| LC 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)             | 🟢 Easy   | Approach 2 |
+| LC 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)           | 🟡 Medium | Approach 4 |
+| LC 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)                     | 🟡 Medium | Approach 3 |
+| LC 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                     | 🟡 Medium | Approach 2 |
+| LC 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/)                                       | 🟡 Medium | Approach 3 |
+| LC 907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)         | 🟡 Medium | Approach 6 |
 
 ---
 
